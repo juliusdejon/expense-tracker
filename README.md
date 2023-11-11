@@ -14,10 +14,10 @@ Therefore, I decided to create a Proof of Concept utilizing Google Cloud Documen
 
 ### Usage
 
-1. Create a Document AI processor
-2. Supply environment .env.example
-3. Replace the receipt.pdf with your image file
-4. node index.js
+1. Create a Document AI processor (specifically expense processor)
+2. Supply needed environment variables (see .env.example)
+3. Replace the receipt.pdf with your image file (it must be pdf too)
+4. Run node index.js
 
 ### Screenshots
 
