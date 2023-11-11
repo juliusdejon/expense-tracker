@@ -25,7 +25,7 @@ async function parseExpenseDocument() {
 
     const [result] = await client.processDocument(request);
 
-    console.log(result.document.entities);
+    console.log(result);
   } catch (error) {
     console.error("Error processing document:", error.message);
   }
